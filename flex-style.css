@@ -17,13 +17,27 @@
 .green {
 	background-color: green;
 }
+.red {
+	background-color: red;
+}
+.coral {
+	background-color: coral;
+}
 
 @media screen and (min-width: 450px){
-	.dark_blue {width: 25%;}
-	.pink {width: 75%}
+	.dark_blue, .coral {width: 25%;}
+	.pink, .red {width: 75%}
 }
 
 @media screen and (min-width: 550px){
 	.dark_blue, .green {width: 25%;}
-	.pink {width: 50%}
+	.pink, .red, .coral {width: 50%}
+}
+
+@media screen and (min-width: 650px) {
+	.container {
+		width: 635px;
+		margin: auto;
+		border: 5px solid black;
+	}
 }
